@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0 ;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+#wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.upper{
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  transition: 4s;
+  opacity: 0.7;
+}
+
+.upper: hover{
+background: #ff7f50;
+}
+
+
+
+
+
+header {
+  color: #FFF;
+  padding: 20px 4% 10px;
+  display: flex;
+  align-items: center
+  position: fixed;
+  top: 0;
+  background:  #D3D3D3;
+}
+
+
+
+a {
+   text-decoration: none;
+}
+
+
+nav {
+   margin: 0 0 0 auto;
+}
+
+
+
+.main-menu ul li {
+  text-align: center;
+}
+
+
+.main-menu ul li a {
+  color: #FFF;
+  display: block;
+  padding: 10px 20px;
+}
+
+
+.main-menu ul li a:hover {
+  background: #ff7f50;
+  transition-property: background-color; 
+  transition-duration: .4s; 
+}
+
+.resizeimage img { width: 100%; }
+
+.main-vizyu {
+  padding-bottom: 80px;
+}
+
+
+.sub-menu ul{
+  display: flex;
+}
+
+
+.sub-menu {
+  padding-bottom: 200px;
+}
+
+.sub-menu ul li{
+   padding: 7px 7px 7px 7px;
+}
+
+
+.sub-menu ul li a:hover {
+  background: #ff7f50;
+  transition-property: background-color; 
+  transition-duration: .4s; 
+}
+
+
+ img {
+  width:100%;
+  max-width: 100%;
+  height: auto;
+}
+
+article {
+    padding-bottom: 300px;
+}
+
+
+h2 { 
+    padding-top: 30px;
+    margin-bottom: 40px;
+    color: #FF570D;
+    text-align: center;
+    font-size: 27px;
+  }
+  
+  
+.main-save{
+    text-align: center;
+    margin-bottom: 100px;
+    }
+  
+  
+.px {
+  font-size: 15px
+}
+
+.ps {
+  collar: #0000FF;
+}
+
+
+.end {
+  text-align:right; 
+}
+
+
+.typewriter{
+  width: 0;
+  border-right: 0.08em solid black; /*カーソル用の線*/
+  overflow: hidden; /*はみ出た要素を非表示に*/
+  white-space: nowrap; /*1行に*/
+  animation: typing 2s steps(17, end) forwards, cursol 1s step-end infinite;
+/*animation: アニメーション名｜時間｜分割数｜ループ */
+}
+/*** 1文字ずつ出現するアニメーション ***/
+@keyframes typing{
+  0% { width: 0%; }
+  100% { width: 17em; }
+}
+
+/*** カーソルが点滅するアニメーション ***/
+@keyframes cursol{
+  0%{ border-color: transparent; }/*消滅*/
+  50%{ border-color: black; } /*出現*/
+  100%{ border-color: transparent; }/*消滅*/
+}
+
+p{
+  font-size:2rem;
+  margin: 2rem;
+}
+
+
+
+
+footer {
+  background: #D3D3D3;
+  color: #FFF;
+  padding: 30px;
+  text-align: center;
+}
+
+
+.fade,
+.fade2 {
+  width: 200px;
+  margin: 20px;
+}
+
+.row {
+  position: relative;
+}
+
+#move {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+}
+
+.fade2 {
+  opacity: .2;
+  transition: opacity, 0.5s;
+}
+
+.fade2:hover {
+  opacity: 3;
+}
+
+
+
+
+@media all and (min-width: 600px) { 
+  .main-menu ul { 
+    display: flex; 
+  } 
+
+
+  article img { 
+    max-width: 600px; 
+    display: block; 
+    margin: 10px auto; 
+  } 
+  
+  .main-menu ul li { 
+    text-align: left; 
+  } 
+
+  main { 
+    display: flex; 
+  } 
+
+  .sub-menu ul li { 
+    text-align: left; 
+  } 
+} 
+
+
+
+
+@media all and (min-width: 1025px) { 
+  #wrap {
+    width: 84%; 
+    max-width: 1280px; 
+  } 
+  header {
+  color: #FFF;
+  padding: 20px 4% 10px;
+  display: flex;
+  align-items: center
+  top: 0;
+  background:   #D3D3D3;
+  ;
+}
+
+
+a {
+   text-decoration: none;
+}
+
+
+nav {
+   margin: 0 0 0 auto;
+}
+
+
+
+.main-menu ul li {
+  text-align: center;
+}
+
+
+.main-menu ul li a {
+  color: #FFF;
+  display: block;
+  padding: 10px 20px;
+}
+
+
+.main-menu ul li a:hover {
+  background: #ff7f50;;
+}
+
+ 
+ }
+  
+} 
