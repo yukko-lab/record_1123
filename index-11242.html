@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <title>Re:cord</title> 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="script.js" defer></script>
+  <script src="js/script.js" defer></script>
   <script src="js/lightbox.min.js"></script>
   <metaname="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style-11242.css"> 
@@ -20,11 +20,13 @@
 
     
     <header> 
-    <h1>Re:cord</h1>
+    <div class ="rog">
+      <a href="#"><img src= "images/rog.png" alt="サイトタイトル"></a>
+      </div> 
      <nav class="main-menu">
      <ul> 
  
-         <li><p class ="pd"><a href="index.html">11/23</a></p></li> 
+         <li><p class ="pd"><a href="index1123.html">11/23</a></p></li> 
 
       
        </ul>
@@ -34,28 +36,46 @@
    <!-<div class="main-vizyu">
    <!-<img src="images2/header.png" alt="header">
     <!- </div>
+    
+    
+    
+    
+    <svg viewBox = "0 0 1280 720">
+        <image class = "left" xlink:href = "images/main_251.png"/>
+        <image class = "right" xlink:href = "images/main_242.png"/>
+        <rect id = "kageL" width = "1280" height = "720" class = "left" fill = "gray" fill-opacity = "0.4"/>
+        <rect id = "kageR" width = "1280" height = "720" class = "right" fill = "gray" fill-opacity = "0.4"/>
+        <image id = "ameL" class = "left" xlink:href = "images/main_242.png"/>
+        <image id = "hareR" class = "right" xlink:href = "images/main_251.png"/>
+
+      <clipPath id = "leftclip">
+        <rect x = "0" y ="0" width = "640" height = "720"/>
+      </clipPath>
+
+      <clipPath id = "rightclip">
+        <rect x = "640" y ="0" width = "640" height = "720"/>
+      </clipPath>
+      
+      
+    </svg>
      
      <article>
      <div class="dashed-note">
-    <p class ="px">11/24</p>
-    <p class ="py">今日は疲れた。<br>朝から課題を急ピッチでやって、もちろん親友とのカラオケは蹴った。断った時少しだけ親友が悲しそうにしていた気はするが、気のせいだったということにしておく。</p>
-    <p class ="py">まぁ何とか課題は間に合った。睡眠時間を犠牲にして。おかげですんごく眠い。<br>さっさと寝よう。もうだめだ、いしきｇあ。
+    <p class ="typeWriter">今日は疲れた。<br>朝から課題を急ピッチでやって、もちろん親友とのカラオケは蹴った。断った時少しだけ親友が悲しそうにしていた気はするが、気のせいだったということにしておく。
+    <br>
+    <img src="images/i_sample_image.png" alt="Still">
+    <br>まぁ何とか課題は間に合った。睡眠時間を犠牲にして。おかげですんごく眠い。<br>さっさと寝よう。もうだめだ、いしきｇあ。
 </p>   
      </div>
     </article> 
     
-    <div class ="main-save">
-     <li><p class ="pa"><a href="index-11240.html">セーブする</a></p></li>
-     <li><p class="pa">ロードする</p></li>
-      </div>
-      
-       </div>
        
-     <div id="wrap">
-     <nav class="upper">
-       <li><a href="#header"><img src="images/bottn.png" alt="TOPへ"></a></li>
-       </nav>
-       </div>
+     <div class ="main-save">
+    <ul>
+     <li><a href="index-11240.html"><img src= "images/save.png" alt="セーブ"></a></p></li>
+     <li><img src= "images/load-n.png" alt="ロードする"></p></li>      
+    </ul>
+    </div>
        
  
     <footer>

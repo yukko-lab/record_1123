@@ -20,11 +20,13 @@
 
     
     <header> 
-    <h1>Re:cord</h1>
+     <div class ="rog">
+      <a href="#"><img src= "images/rog.png" alt="サイトタイトル"></a>
+      </div>
      <nav class="main-menu">
      <ul> 
  
-         <li><p class ="pd"><a href="index.html">11/23</a></p></li> 
+         <li><p class ="pd"><a href="index-1123.html">11/23</a></p></li> 
 
          <li><p class ="pd"><a href="index-11241.html">11/24</a></p></li> 
   
@@ -38,17 +40,38 @@
     <!- </div>
      
      <article>
+     <svg viewBox = "0 0 1280 720">
+        <image class = "left" xlink:href = "images/main_241.png"/>
+        <image class = "right" xlink:href = "images/main_251.png"/>
+        <rect id = "kageL" width = "1280" height = "720" class = "left" fill = "gray" fill-opacity = "0.4"/>
+        <rect id = "kageR" width = "1280" height = "720" class = "right" fill = "gray" fill-opacity = "0.4"/>
+        <image id = "ameL" class = "left" xlink:href = "images/main_251.png"/>
+        <image id = "hareR" class = "right" xlink:href = "images/main_241.png"/>
+
+      <clipPath id = "leftclip">
+        <rect x = "0" y ="0" width = "640" height = "720"/>
+      </clipPath>
+
+      <clipPath id = "rightclip">
+        <rect x = "640" y ="0" width = "640" height = "720"/>
+      </clipPath>
+      
+      
+    </svg>
+    
+    
      <div class="dashed-note">
-    <p class ="px">11/25</p>
-    <p class ="py">今日はいつもより最悪だ！！！<br>課題出し忘れてた！完全にやらかした・・・。この課題を出さなかったら単位貰えない。そしてもれなく単位取得数が足りなくて留年・・・。<br>これはかなりまずい。今すぐロードしよう。カラオケなんて行ってる暇ないわ。</p>  
+    <p class ="typeWriter">今日はいつもより最悪だ！！！<br>課題出し忘れてた！完全にやらかした・・・。この課題を出さなかったら単位貰えない。そしてもれなく単位取得数が足りなくて留年・・・。<br>これはかなりまずい。今すぐロードしよう。カラオケなんて行ってる暇ないわ。</p>  
     </div>
    
     </article> 
     
-    <div class ="main-save">
-     <li><p class="pa">セーブする</p></li>
-     <li><p class ="pa"><a href="index-11250.html">ロードする</a></p></li>
-      </div>
+   <div class ="main-save">
+    <ul>
+     <li><img src= "images/save-n.png" alt="セーブ"></a></p></li>
+     <li><a href="index-11250.html"><img src= "images/load.png" alt="ロードする"></p></li>      
+    </ul>
+    </div>
       
        </div>
        

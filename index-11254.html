@@ -20,11 +20,13 @@
 
     
     <header> 
-    <h1>Re:cord</h1>
+    <div class ="rog">
+      <a href="#"><img src= "images/rog.png" alt="サイトタイトル"></a>
+      </div>
     <nav class="main-menu">
      <ul> 
  
-         <li><p class ="pd"><a href="index.html">11/23</a></p></li> 
+         <li><p class ="pd"><a href="index-1123.html">11/23</a></p></li> 
 
          <li><p class ="pd"><a href="index-11242.html">11/24</a></p></li> 
   
@@ -38,17 +40,38 @@
     <!- </div>
      
      <article>
+     <svg viewBox = "0 0 1280 720">
+        <image class = "left" xlink:href = "images/main_26.png"/>
+        <image class = "right" xlink:href = "images/main_254.png"/>
+        <rect id = "kageL" width = "1280" height = "720" class = "left" fill = "gray" fill-opacity = "0.4"/>
+        <rect id = "kageR" width = "1280" height = "720" class = "right" fill = "gray" fill-opacity = "0.4"/>
+        <image id = "ameL" class = "left" xlink:href = "images/main_254.png"/>
+        <image id = "hareR" class = "right" xlink:href = "images/main_26.png"/>
+
+      <clipPath id = "leftclip">
+        <rect x = "0" y ="0" width = "640" height = "720"/>
+      </clipPath>
+
+      <clipPath id = "rightclip">
+        <rect x = "640" y ="0" width = "640" height = "720"/>
+      </clipPath>
+      
+      
+    </svg>
      <div class="dashed-note">
-    <p class ="px">12/25</p>
-    <p class ="py">あの事故から、今日で１か月。
+    <p class ="typeWriter">あの事故から、今日で１か月。
+    <br>
+     <img src="images/i_sample_image.png" alt="Still">
 <br>結局、自分はロードすることができなかった。何かあったらという不安が、その可能性があることが恐ろしかった。
 <br>あんなに苦しかったのに、それでも自分は利己的なままで。
 <br>ホントにどうしようもない人間だね。先が見えない不安を抱えて生きる強さも、失敗を受け入れる覚悟も無い。いつまでも子供のまま、自立もできない。
-<br>失敗したって人生が終わるわけでもないのにね。理解かってるつもりで理解ってなかった。それを後から思い知って悔やんだって、大切なものはもう戻らない。親友はもう戻らない。あんなに後悔したのに、何にも学んでなかった。何にも解ってなかった。</p>
-<p class ="py">それでも、こんなに想い悔やんでいたとしても、ロードする勇気は微塵も湧いてこない。こんな自分が憎たらしい。ここまで来ると救いようがないな。
-<br>こんなんじゃあ、あの運転手と何も変わらないじゃないか。見捨てたようなものだ。大切な親友を、助けられた筈の命を、自分可愛さで切り落とした。</p>
-<p class ="py">最早涙も出ない。悲しみも湧かない。ただひたすら空しい。これから先の日々を、空虚な時間をどう過ごしていけばいいのだろう。</p>
-<p class ="py">もう何もわからない、考えたくない。
+<br>失敗したって人生が終わるわけでもないのにね。理解かってるつもりで理解ってなかった。それを後から思い知って悔やんだって、大切なものはもう戻らない。親友はもう戻らない。あんなに後悔したのに、何にも学んでなかった。何にも解ってなかった。
+<br><br>それでも、こんなに想い悔やんでいたとしても、ロードする勇気は微塵も湧いてこない。こんな自分が憎たらしい。ここまで来ると救いようがないな。
+<br>こんなんじゃあ、あの運転手と何も変わらないじゃないか。見捨てたようなものだ。大切な親友を、助けられた筈の命を、自分可愛さで切り落とした。
+<br><br>最早涙も出ない。悲しみも湧かない。ただひたすら空しい。これから先の日々を、空虚な時間をどう過ごしていけばいいのだろう。
+<br>
+     <img src="images/i_sample_image.png" alt="Still">
+<br><br>もう何もわからない、考えたくない。
 <br>また明日考えよう。今日は疲れた。
 <br>最後のロードは、一体いつになるんだろうね。
 </p>   
@@ -57,9 +80,11 @@
     </article> 
     
     <div class ="main-save">
-     <li><p class ="pa"><a href="index-end.html">セーブする</a></p></li>
-     <li><p class="pa">ロードする</p></li> 
-      </div>
+    <ul>
+     <li><a href="index-end.html"><img src= "images/save.png" alt="セーブ"></a></p></li>
+     <li><img src= "images/load-n.png" alt="ロードする"></p></li>      
+    </ul>
+    </div>
       
        </div>
        
