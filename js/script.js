@@ -22,6 +22,10 @@ $( function(){
     $('#move').animate( { 'left': '+=30px' } , { 'duration': 1000 } );
   });
   
+  
+  
+  
+  
 $(".upper").click(function(){
 $('html,body').animate({'scrollTop':0},500);
 });
@@ -164,6 +168,22 @@ function modoru() {
 
 
 
- 
- 
 
+function audio() {
+    document.getElementById('btn_audio').currentTime = 0; //連続クリックに対応
+    document.getElementById('btn_audio').play(); //クリックしたら音を再生
+}
+
+
+function soundbell(n)
+{
+  // 割り当てるID名（引数のnを連結して指定）
+  var id = 'sound-'+n ;
+  // 初回の再生以外だったら音声ファイルの再生ポイントを先頭にしておく
+  if( typeof( document.getElementById( id ).currentTime ) != 'undefined' )
+  {
+    document.getElementById( id ).currentTime = 0;
+  }
+  // [ID:sound-file]の音声ファイルを再生[play()]する
+  document.getElementById( id ).play() ;
+}

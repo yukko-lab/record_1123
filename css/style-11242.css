@@ -9,7 +9,7 @@
 
 
 #wrap {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -304,11 +304,11 @@ article {
 
 
 h2 { 
-    padding-top: 30px;
+    padding-top: 150px;
     margin-bottom: 40px;
     color: #FF570D;
     text-align: center;
-    font-size: 27px;
+    font-size: 40px;
   }
   
   
@@ -391,8 +391,7 @@ h2 {
  
  
 .pb {
-  text-align: center;
-  margin-top: 350px;
+  margin-top: 200px;
 }
  
  
@@ -414,6 +413,32 @@ h2 {
 .pu {
   font-size: 20px;
 }
+
+
+.next {
+   width: 15%;
+   height: 15%;
+   position: fixed;
+   right: 50px;
+   bottom: 50px;
+}
+
+
+.main-audio {
+   width: 5%;
+   height: 5%;
+   margin-top: 106px;
+}
+
+
+.main-audio2 {
+   width: 10%;
+   height: 10%;
+   margin-top: 344px;
+   margin-left: 370px;
+}
+
+
 
 .typewriter{
   width: 0;
@@ -444,7 +469,6 @@ h2 {
   min-height: 400px;
   font-size: 26px;
   line-height : 216%;
-  margin-top: 112px;
   margin-right : 20px;
   margin-left : 20px;
 }
