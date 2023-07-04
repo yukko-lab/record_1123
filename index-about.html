@@ -24,31 +24,55 @@
     
     <header> 
      <div class ="rog">
-        <a href="#"><img src= "images/rog.png" alt="サイトタイトル"></a>
+       <img src= "images/rog.png" alt="サイトタイトル"></a>
       </div>
       <nav class="main-menu">
      <ul> 
  
-         <li><p class ="pd">ABOUT</p></li> 
+         <li><p class ="pd"><a href="#credit">Credit</a></p></li> 
+         <li><p class ="pd"><a href="#about">About</a></p></li> 
   
       
        </ul>
       </nav>
     </header> 
     
-   <!-<div class="main-vizyu">
-   <!-<img src="images2/header.png" alt="header">
-    <!- </div>
-     
+  <svg viewBox = "0 0 1280 720">
+        <image class = "left" xlink:href = "images/mian_omote.png"/>
+        <image class = "right" xlink:href = "images/title_image.png"/>
+        <rect id = "kageL" width = "1280" height = "720" class = "left" fill = "gray" fill-opacity = "0.4"/>
+        <rect id = "kageR" width = "1280" height = "720" class = "right" fill = "gray" fill-opacity = "0.4"/>
+        <image id = "ameL" class = "left" xlink:href = "images/title_image.png"/>
+        <image id = "hareR" class = "right" xlink:href = "images/mian_omote.png"/>
+
+      <clipPath id = "leftclip">
+        <rect x = "0" y ="0" width = "640" height = "720"/>
+      </clipPath>
+
+      <clipPath id = "rightclip">
+        <rect x = "640" y ="0" width = "640" height = "720"/>
+      </clipPath>
+      
+      
+    </svg>
+    
+    
+    
+    
+    
      <article>
-     <h2>Credit</h2>
+     <section class="area" id="credit">
+    <h2>Credit</h2>
+    </section>
      <div class="dashed-note">
      
      <p class="px ps ">
      <a href="https://soundeffect-lab.info/" target="_blank">◇効果音ラボ</a></p>
      </div>
     
+    <section class="area" id="about">
      <h2>About</h2>
+     </section>
      <div class="dashed-note">
      <p class="px ps ">製作者：ゆきち 
  <br>ごく普通の大学３年生<br>最近アップルパイのおいしさに気付いた</p>
@@ -79,7 +103,7 @@
        
  
     <footer>
-    <p>&copy; PORTFOLIO </p> 
+    <p>&copy; Re:cord </p> 
     </footer> 
     
 

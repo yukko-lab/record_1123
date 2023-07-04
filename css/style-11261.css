@@ -296,15 +296,12 @@ nav {
 }
 
 
-.main-t img{
-   width: 150px;
-   height: auto;
-}
+
 
 
 
 article {
-    padding-bottom: 300px;
+    padding-bottom: 100px;
 }
 
 
@@ -367,6 +364,26 @@ article {
    font-family: 'DotGothic16', sans-serif;
 }
 
+.yubi {
+  cursor : pointer;
+}
+
+
+.main-audio {
+   width: 5%;
+   height: 5%;
+   margin-top: 106px;
+}
+
+
+.main-audio2 {
+   width: 10%;
+   height: 10%;
+   margin-top: 344px;
+   margin-left: 370px;
+}
+
+
 
 
 
@@ -396,13 +413,11 @@ article {
 
 
 
-
 .typeWriter {
   color: #313131;
-  min-height: 300px;
+  min-height: 400px;
   font-size: 26px;
   line-height : 216%;
-  margin-top: 112px;
   margin-right : 20px;
   margin-left : 20px;
   
@@ -419,6 +434,10 @@ article {
     border-color: transparent;
   }
 }
+
+
+
+
 
 span{
     color: white;
